@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility - Miki FM</title>
+    <meta name="description" content="Accessibility information for the Miki FM iOS, iPadOS, and tvOS app.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #2f3437;
+            background: radial-gradient(circle at top left, #54d6ff 0, transparent 30%), linear-gradient(135deg, #050505 0%, #21130d 50%, #080b10 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 40px auto;
+            background: #fffdf8;
+            padding: 40px;
+            border-radius: 22px;
+            box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(84, 214, 255, 0.45);
+        }
+        .header { text-align: center; margin-bottom: 34px; padding-bottom: 28px; border-bottom: 3px solid #54d6ff; }
+        .app-name { font-size: 2.7em; font-weight: 800; letter-spacing: 0.03em; background: linear-gradient(135deg, #ff4438, #ffb000, #54d6ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 8px; }
+        .tagline { color: #5d6266; font-size: 1.08em; }
+        h1 { color: #1f2326; font-size: 2em; margin: 28px 0 18px; }
+        h2 { color: #0f7aa1; font-size: 1.42em; margin: 25px 0 13px; }
+        h3 { color: #d83a2f; font-size: 1.12em; margin: 18px 0 8px; }
+        p { margin-bottom: 14px; color: #50555a; }
+        ul { margin: 14px 0 14px 28px; color: #50555a; }
+        li { margin-bottom: 8px; }
+        a { color: #0c78a0; font-weight: 700; }
+        .card { background: #eefaff; border-left: 4px solid #54d6ff; padding: 20px; margin: 22px 0; border-radius: 12px; }
+        .note { background: #fff5d7; border-left: 4px solid #ffb000; padding: 20px; margin: 22px 0; border-radius: 12px; }
+        .contact-box { background: linear-gradient(135deg, #111111, #0f7aa1); color: white; padding: 30px; border-radius: 16px; margin-top: 34px; text-align: center; }
+        .contact-box h2, .contact-box p { color: white; }
+        .contact-box a { color: white; text-decoration: none; border-bottom: 2px solid white; padding-bottom: 2px; }
+        @media (max-width: 768px) { .container { padding: 25px; margin: 20px auto; } .app-name { font-size: 2.05em; } h1 { font-size: 1.55em; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-name">Miki FM</div>
+            <div class="tagline">Accessibility Information</div>
+        </div>
+
+        <h1>Miki FM Accessibility</h1>
+        <p>Last updated: May 6, 2026</p>
+
+        <div class="card">
+            <h2>Declared App Store Accessibility Support</h2>
+            <p>Miki FM declares support for <strong>Dark Interface</strong> on supported Apple platforms. The app is designed around a dark radio-console interface and includes selectable visual themes.</p>
+        </div>
+
+        <h2>Supported Features</h2>
+        <ul>
+            <li><strong>Dark Interface:</strong> Miki FM uses a dark, high-atmosphere audio-console design by default and provides theme choices in the app.</li>
+            <li><strong>Readable controls:</strong> Core playback controls use large tap targets and clear labels such as play, pause, previous, next, random, search, and settings.</li>
+            <li><strong>Apple platform controls:</strong> The app uses Apple platform UI where possible, including standard permission prompts for Apple Music, microphone access, tracking permission, and purchases.</li>
+        </ul>
+
+        <h2>Known Limitations</h2>
+        <p>Miki FM is a visual radio app with custom meters, spectrum views, vinyl-style artwork, and station cards. Some decorative or visualizer-heavy areas may not fully communicate every visual detail through assistive technologies.</p>
+        <p>Live internet radio streams usually do not provide captions or audio descriptions. Because of that, Miki FM does not claim Captions or Audio Descriptions support for live station audio.</p>
+
+        <h2>Tips</h2>
+        <ul>
+            <li>Use system volume controls or Control Center if you prefer platform-level audio control.</li>
+            <li>Use the in-app search to find stations by genre, city, or station name.</li>
+            <li>Use the app's theme settings if you prefer a different visual treatment.</li>
+        </ul>
+
+        <div class="note">
+            <h3>Feedback</h3>
+            <p>If an accessibility issue blocks a common task such as browsing stations, playback, search, settings, or premium purchase restore, please contact support with your device model and iOS, iPadOS, or tvOS version.</p>
+        </div>
+
+        <div class="contact-box">
+            <h2>Contact Support</h2>
+            <p><a href="mailto:ivansajtovi@gmail.com">ivansajtovi@gmail.com</a></p>
+            <p><a href="support.html">Miki FM Support</a> · <a href="index.html">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
